@@ -27,7 +27,8 @@ var bin = {
   init: './bin/init',
   help: './bin/help',
   version: './bin/version',
-  pull: './bin/pull'
+  pull: './bin/pull',
+  push: './bin/push'
 }
 
 if (!bin.hasOwnProperty(first)) {
