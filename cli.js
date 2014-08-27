@@ -22,7 +22,8 @@ var onerror = function(err) {
 var first = argv._[0] || ''
 
 var bin = {
-  cat: './bin/cat'
+  cat: './bin/cat',
+  init: './bin/init'
 }
 
 if (!bin.hasOwnProperty(first)) {
