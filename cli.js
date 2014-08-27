@@ -24,6 +24,7 @@ var first = argv._[0] || ''
 var bin = {
   cat: './bin/cat',
   export: './bin/cat',
+  import: './bin/import',
   init: './bin/init',
   help: './bin/help',
   version: './bin/version',
