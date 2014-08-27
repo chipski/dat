@@ -23,7 +23,9 @@ var first = argv._[0] || ''
 
 var bin = {
   cat: './bin/cat',
-  init: './bin/init'
+  export: './bin/cat',
+  init: './bin/init',
+  help: './bin/help'
 }
 
 if (!bin.hasOwnProperty(first)) {
