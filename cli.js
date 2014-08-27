@@ -26,7 +26,8 @@ var bin = {
   export: './bin/cat',
   init: './bin/init',
   help: './bin/help',
-  version: './bin/version'
+  version: './bin/version',
+  pull: './bin/pull'
 }
 
 if (!bin.hasOwnProperty(first)) {
